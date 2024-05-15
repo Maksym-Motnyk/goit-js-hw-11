@@ -23,6 +23,7 @@ searchButton.addEventListener('click', event => {
   if (input.value.trim() == '') {
     iziToast.error({
       title: 'Error',
+      position: 'topRight',
       message:
         'The search field cannot be empty! Please enter the search query!',
     });
